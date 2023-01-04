@@ -8,7 +8,7 @@ export default function Section6(props){
         <PaddingLayout>
             <div className = {styles.container}>
                 <div style = {{margin: 'auto', width: 'fit-content'}}>
-                    <Image src = '/../public/landing_sec6_title.png' width = '362' height = '38' />
+                    <Image src = './landing_sec6_title.png' width = '362' height = '38' />
                 </div>
 
                 <p style = {{marginTop: '71px'}} className = {styles.yellowBox}>PreneurBay’s Terminal</p>
@@ -36,7 +36,7 @@ export default function Section6(props){
                         </ul>
                     </div>
                     <div>
-                        <Image src = '/../public/landing_sec6_img.png' width = '400' height = '570'/>
+                        <Image src = './landing_sec6_img.png' width = '400' height = '570'/>
                     </div>
                 </div>
             </div>

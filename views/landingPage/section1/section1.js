@@ -15,7 +15,7 @@ export default function Section1(props){
                 </div>
                 <div style = {{width: '556px'}}>
                     <div style = {{marginBottom: '35px'}}>
-                        <Image src = '/../public/solopreneur.png' width = '395' height = '35' />
+                        <Image src = './solopreneur.png' width = '395' height = '35' />
                     </div>
                     <p className = {styles.rightText}>Willing to cross boundaries across world by creating impact through your ideas  !!<br/><br/>You landed at the right space.👍</p>
                 </div>

@@ -8,7 +8,7 @@ export default function Section7(props){
         <PaddingLayout>
             <div className = {styles.container}>
                 <div style = {{position: 'relative'}}>
-                    <Image src = '/../public/landing_sec7_maps.png' width = '1100' height = '582'/>
+                    <Image src = './landing_sec7_maps.png' width = '1100' height = '582'/>
                 </div>
             </div>
         </PaddingLayout>

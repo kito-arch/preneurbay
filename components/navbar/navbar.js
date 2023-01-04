@@ -8,7 +8,7 @@ export default function Navbar(props){
         <PaddingLayout>
             <div className = {`${styles.container} d-flex align-items-center justify-content-between`}>
                 <div>
-                    <Image src = "/../public/logo.png" width = '223' height = '45' />
+                    <Image src = "./logo.png" width = '223' height = '45' />
                 </div>
                 <div className='d-flex'>
                     <p className = {`${styles.label} ${styles.active}`}>Home</p>

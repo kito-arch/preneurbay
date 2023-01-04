@@ -7,7 +7,7 @@ export default function Section10(props){
     return(
         <PaddingLayout>
             <div className = {styles.container}>
-                <Image src = '/../public/landing_sec10_back.png' layout = 'fill' />
+                <Image src = './landing_sec10_back.png' layout = 'fill' />
 
                 <div style = {{position: 'relative'}} className = 'd-flex align-items-center justify-content-between'>
                     <div>

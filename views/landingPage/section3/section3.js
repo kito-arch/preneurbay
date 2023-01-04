@@ -9,7 +9,7 @@ export default function Section3(props){
         <PaddingLayout>
             <div className = {styles.container}>
                 <div style = {{margin: 'auto', width: 'fit-content'}}>
-                    <Image src = '/../public/landing_sec3_title.png' width = '358' height = '44' />
+                    <Image src = './landing_sec3_title.png' width = '358' height = '44' />
                 </div>
                 <div className = {`${styles.tabsContainer} d-flex align-items-center justify-content-between`}>
                     <div className = {`${styles.tabContainer} ${styles.tabContainerActive}`}>
@@ -47,14 +47,14 @@ export default function Section3(props){
                     <div style = {{marginLeft: '30px'}}>
                         <div className = {`${styles.rightContainer} d-flex`}>
                             <div className = {styles.card}>
-                                <Image src = '/../public/landing_sec3_hotel1.png' layout = 'fill' />
+                                <Image src = './landing_sec3_hotel1.png' layout = 'fill' />
                                 <p className = {styles.coming}>Coming Soon</p>
                                 <p className = {styles.cardInfo}>Aligarh</p>
                                 <p className = {styles.book}>Book Now</p> 
                             </div>
 
                             <div className = {styles.card}>
-                                <Image src = '/../public/landing_sec3_hotel2.png' layout = 'fill' />
+                                <Image src = './landing_sec3_hotel2.png' layout = 'fill' />
                                 <p className = {styles.coming}>Coming Soon</p>
                                 <p className = {styles.cardInfo}>Aligarh</p>
                                 <p className = {styles.book}>Book Now</p> 
@@ -66,28 +66,28 @@ export default function Section3(props){
                                 <div className = {`${styles.guestContainer} d-flex`}>
                                     <div style = {{width: 'fit-content'}}>
                                         <div style = {{width: '56px',  height: '56px', border: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
-                                            <Image src = '/../public/guest1.png' layout = 'fill' />
+                                            <Image src = './guest1.png' layout = 'fill' />
                                         </div>
                                         <p className = {styles.guestLabel} style = {{background: 'linear-gradient(180deg, #D1AB49 0%, #D19C15 100%)'}}>Traveler</p>
                                     </div>
 
                                     <div style = {{width: 'fit-content'}}>
                                         <div style = {{width: '56px',  height: '56px', border: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
-                                            <Image src = '/../public/guest2.png' layout = 'fill' />
+                                            <Image src = './guest2.png' layout = 'fill' />
                                         </div>
                                         <p className = {styles.guestLabel} style = {{background: '#03254C'}}>Entrepreneur</p>
                                     </div>
 
                                     <div style = {{width: 'fit-content'}}>
                                         <div style = {{width: '56px',  height: '56px', border: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
-                                            <Image src = '/../public/guest3.png' layout = 'fill' />
+                                            <Image src = './guest3.png' layout = 'fill' />
                                         </div>
                                         <p className = {styles.guestLabel} style = {{background: '#376BF9'}}>Investor</p>
                                     </div>
 
                                     <div style = {{width: 'fit-content'}}>
                                         <div style = {{width: '56px',  height: '56px', border: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
-                                            <Image src = '/../public/guest1.png' layout = 'fill' />
+                                            <Image src = './guest1.png' layout = 'fill' />
                                         </div>
                                     </div>
                                 </div>

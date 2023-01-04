@@ -6,15 +6,15 @@ import Image from 'next/image'
 export default function Section5(props){
     return(
         <div className = {styles.container}>
-            <Image src = '/../public/landing_sec5_back.png' layout = 'fill' />
+            <Image src = './landing_sec5_back.png' layout = 'fill' />
             <div style = {{position: 'absolute', left: '0', bottom: '0'}}>
-                <Image src = '/../public/landing_sec5_des.png' width = '606' height = '617' />
+                <Image src = './landing_sec5_des.png' width = '606' height = '617' />
             </div>
             <PaddingLayout>
                 <div style = {{position: 'relative'}} className='d-flex align-items-start justify-content-between'>
                     <div>
                         <div>
-                            <Image src = '/../public/landing_sec5_title.png' width = '380' height = '100' />
+                            <Image src = './landing_sec5_title.png' width = '380' height = '100' />
                         </div>
                     </div>
                     <div style = {{width: '666px'}}>
