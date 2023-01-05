@@ -10,7 +10,7 @@ export default function Section6(props){
             <div className = {styles.container}>
                 <Fade duration = {2000} bottom>
                     <div style = {{margin: 'auto', width: 'fit-content'}}>
-                        <Image src = './landing_sec6_title.png' width = '362' height = '38' />
+                        <Image src = '/landing_sec6_title.png' width = '362' height = '38' />
                     </div>
                 </Fade>
 
@@ -49,7 +49,7 @@ export default function Section6(props){
                     </Fade>
                     <Fade duration = {2000} right>
                         <div>
-                            <Image src = './landing_sec6_img.png' width = '400' height = '570'/>
+                            <Image src = '/landing_sec6_img.png' width = '400' height = '570'/>
                         </div>
                     </Fade>
                 </div>

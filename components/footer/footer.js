@@ -15,7 +15,7 @@ export default function Footer(props){
                         <div className = 'd-flex align-items-center'>
                             <p className = {styles.text}>Build by</p>
                             <div style = {{marginLeft: '16px'}}>
-                                <Image src = './footer_logo.png' width = '100' height = '62'/>
+                                <Image src = '/footer_logo.png' width = '100' height = '62'/>
                             </div>
                         </div>
                     </div>

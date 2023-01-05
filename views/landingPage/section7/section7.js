@@ -10,7 +10,7 @@ export default function Section7(props){
             <Fade duration = {2000} bottom>
                 <div className = {styles.container}>
                     <div style = {{position: 'relative'}}>
-                        <Image src = './landing_sec7_maps.png' width = '1100' height = '582'/>
+                        <Image src = '/landing_sec7_maps.png' width = '1100' height = '582'/>
                     </div>
                 </div>
             </Fade>
