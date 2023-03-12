@@ -41,7 +41,7 @@ export default function Section1(props){
                             </div>
                             <p style = {{width : 'auto', marginLeft: '0', marginRight: '0'}} className = {styles.solo}>&nbsp;?</p>
                         </div> */}
-                        <p className = {styles.text}>We are creating a community where preneur's meet hands to leverage businesses.</p>
+                        <p className = {styles.text}>We are creating a community space where preneur's meet hands to leverage businesses.</p>
                     </div>
                 </Fade>
                 <Fade duration = {2000} right>

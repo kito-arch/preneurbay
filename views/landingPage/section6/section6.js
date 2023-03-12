@@ -25,7 +25,7 @@ export default function Section6(props){
                         </Fade>
                         <Fade duration = {2000} right>
                             <div style = {{width: '666px'}}>
-                                <p className = {styles.text}>PreneurBay's concept connects two individual cities through our platform, allowing individuals to learn more about each other and promoting economic, educational and cultural growth between international cities.<br/>PreneurBay's Terminal is an innovative concept that connects two different cities through our platform, allowing individuals to learn more about each other and promoting economic, educational and cultural growth between international cities. Our platform provides a unique opportunity for individuals to explore and connect with different cultures and communities, fostering mutually beneficial relationships between the two cities</p>
+                                <p className = {styles.text}>PreneurBay's Terminal platform is a unique solution for bridging the gap between two international cities, promoting cross-cultural exchange and fostering growth in the areas of economics, education, and culture. By providing a platform for individuals to connect and explore, PreneurBay aims to facilitate positive relationships and promote mutual understanding between different communities. Within our co working and living spaces</p>
                             </div>
                         </Fade>
                     </div>
@@ -39,6 +39,11 @@ export default function Section6(props){
                     </Fade>
                     <div style = {{width: '100%'}}>
                         <PaddingLayout >
+                            <Fade duration = {2000} left>
+                                <div style = {{width: '396px'}}>
+                                    <p className = {styles.title}>Key Benefits</p>
+                                </div>
+                            </Fade>
                             <div style={{width: '100%'}} className = 'd-flex align-items-start justify-content-between'>
                                     <Fade duration = {2000} left>
                                         <div className = {styles.point} style = {{width: '728px'}}>
