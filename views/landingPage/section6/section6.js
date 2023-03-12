@@ -40,7 +40,7 @@ export default function Section6(props){
                     <div style = {{width: '100%'}}>
                         <PaddingLayout >
                             <Fade duration = {2000} left>
-                                <div style = {{width: '396px'}}>
+                                <div style = {{width: '396px', marginBottom: '30px'}}>
                                     <p className = {styles.title}>Key Benefits</p>
                                 </div>
                             </Fade>
@@ -49,13 +49,21 @@ export default function Section6(props){
                                         <div className = {styles.point} style = {{width: '728px'}}>
                                         <ul className = {styles.points}>
                                             <li>Our Unique Selling Point is Connecting International Entrepreneurs and Professional Travelers with Local Entrepreneur Communities.</li>
+                                            <br/>
                                             <li>Our Co-working Spaces provide opportunities for engagement and building connections with co-workers and the international community.</li>
+                                            <br/>
                                             <li>We strive to establish a robust Network of Research and Development to drive innovation and foster collaboration between corporate leaders and educational institutions.</li>
+                                            <br/>
                                             <li>Our Modern Living Spaces offer a peaceful environment for business travel, allowing you to stay focused and refreshed.</li>
+                                            <br/>
                                             <li>Our App provides in-depth networking opportunities to explore more about our members and connect with people internationally.</li>
+                                            <br/>
                                             <li>The "Gig on Travel" feature allows you to take on jobs posted by members, reducing your travel costs.</li>
+                                            <br/>
                                             <li>Attend Local and In-House Events to expand your network and knowledge.</li>
+                                            <br/>
                                             <li>We understand the challenges of starting a business, that's why we make our services as affordable as possible to leave positive memories during your early entrepreneurial journey.</li>
+                                            <br/>
                                             <li>We understand the financial challenges that come with starting a business, which is why we strive to make our services as affordable as possible for early stage entrepreneurs. Our goal is to provide a positive and memorable experience during this important phase of your entrepreneurial journey.</li>
                                         </ul>
                                         </div>
